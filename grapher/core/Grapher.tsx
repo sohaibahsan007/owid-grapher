@@ -31,7 +31,6 @@ import {
     debounce,
     isInIFrame,
     differenceObj,
-    intersection,
 } from "../../clientUtils/Util"
 import {
     ChartTypeName,
@@ -140,7 +139,6 @@ import {
     EntityId,
     EntityName,
     OwidColumnDef,
-    OwidTableSlugs,
 } from "../../coreTable/OwidTableConstants"
 import { BlankOwidTable, OwidTable } from "../../coreTable/OwidTable"
 import * as Mousetrap from "mousetrap"
